@@ -33,9 +33,13 @@ These parameters control internal behavior and should only be modified by experi
 - A flood extent map as an unsigned 8-bit GeoTIFF (20m spatial resolution).
 - The output is uploaded to WASDI and styled using `DDS_FLOODED_AREAS`.
 
+---
+
 ## Notes
 - The **Copernicus DEM** is automatically extracted using WASDI’s `dem_extractor` based on the image footprint. **No DEM input is required**.
 - Both Sentinel-1 images must be acquired over the same relative orbit.
+
+---
 
 ## Example  
 Example of the input parameter file:  
