@@ -59,14 +59,14 @@ Example of the input parameter file:
 
 ## Code Structure
 
-- **MyProcessor.py**  
-  Contains the main function which calls the core functions from the `autowade_s2` module.
+- **myProcessor.py**  
+  Contains the main function which calls the core functions from the `autowade_s1` module.
 
-- **Autowade_s2.py**  
-  Contains the functions and implementation of the AUTOWADE_S2 algorithm.
+- **AUTOWADE_S1_v0_2_0.py**  
+  Contains the functions and implementation of the AUTOWADE_S1 algorithm.
 
-- **Resample_themathic.py**  
-  Provides utilities for resampling and aligning thematic layers (e.g., land cover, DEM) to the Sentinel-2 image.
+- **resample_themathic.py**  
+  Provides utilities for resampling and aligning thematic layers (e.g., land cover, DEM) to the Sentinel-1 image.
 
 ---
 
