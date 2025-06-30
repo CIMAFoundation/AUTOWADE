@@ -24,7 +24,7 @@ The workflow includes the following main steps:
 2. Clustering and Thresholding:
    a. Unsupervised clustering on valid MNDWI values to identify water-like pixels
    b. Selection of target cluster(s) based on statistical ranking and user option (OPTION_1)
-   c. Adaptive buffer size optimization to support robust thresholding (using edge-based method)
+   c. Adaptive buffer size optimization to support robust thresholding (using edge-based method) - (using functions from [2][3])
    d. Otsu thresholding to classify water vs non-water within the buffered region
 
 3. Flood Water Refinement:
