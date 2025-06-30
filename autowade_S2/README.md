@@ -58,13 +58,13 @@ Example input configuration in JSON format:
 
 ## Code Structure
 
-- **MyProcessor.py**  
+- **myProcessor.py**  
   Contains the main function which calls the core functions from the `autowade_s2` module.
 
-- **Autowade_s2.py**  
+- **AUTOWADE_S2.py**  
   Contains the functions and implementation of the AUTOWADE_S2 algorithm.
 
-- **Resample_themathic.py**  
+- **resample_themathic.py**  
   Provides utilities for resampling and aligning thematic layers (e.g., land cover, DEM) to the Sentinel-2 image.
 
 ---
