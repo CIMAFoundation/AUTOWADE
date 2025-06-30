@@ -33,7 +33,7 @@ These parameters fine-tune the detection algorithm and should only be changed by
 ---
 
 ## Output
-- A classified flood map in unsigned 8-bit GeoTIFF format, aligned with the Sentinel-2 image grid (10 m resolution).
+- A classified flood map in unsigned 8-bit GeoTIFF format (20 m resolution).
 - The output is uploaded to WASDI and styled using `DDS_FLOODED_AREAS_OPTICAL`.
 
 ---
