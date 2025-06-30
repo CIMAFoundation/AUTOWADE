@@ -6,9 +6,9 @@ Two tailored and independently developed modules automatically detect flooded ar
 - **`autowade_s1`** – tailored for Sentinel-1 Synthetic Aperture Radar (SAR) data, works with a pair of pre and post event image [REF-01]  
 - **`autowade_s2`** – tailored for Sentinel-2 optical data, works with single image [REF-02]
 
-These tools are developed in Python and has been deployed on the **Specialized Processing Environment (PE)** powered by WASDI Sarl (https://wasdi.net/).  
-The two algorithms have been developed for the **Copernicus LAC** program.  
-The fully automated SAR and optical flood mapping chain integrating `autowade_s1` and `autowade_s2` is available in the Flood Extent Mapping Service available in the Copernicus-LAC Specialized PE (https://coplac.wasdi.net/#/cl_flood_extent/appDetails) 
+The two algorithms have been developed for the **Copernicus LAC** program.
+These tools are developed in Python and has been deployed on the **Copernicus Specialized Processing Environment (PE)** powered by WASDI Sarl (https://wasdi.net/).    
+The fully automated SAR and optical flood mapping chain integrating `autowade_s1` and `autowade_s2` is available in the Flood Extent Mapping Service available in the Copernicus-LAC Specialized PE (https://coplac.wasdi.net/#/cl_flood_extent/appDetails).
 
 
 ## Repository Structure
