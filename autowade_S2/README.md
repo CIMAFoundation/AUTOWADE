@@ -20,7 +20,7 @@ The output is a water extent map with a spatial resolution of 10 meters, classif
 
 - **S2_ImageToProcess**: Sentinel-2 L2A image (post-event), as a `.zip` SAFE product.   
 - **LULC_IMAGE**: ESA WorldCover map over the Area of Interest (AOI), in `.tif` format. Can be extracted using the WASDI `world_cover_extractor` application.  
-- **DEM_AUX_WBM**: Water Body Mask (WBM) - auxiliary tif file delivered with the CopDEM-30, available in the wasdi catalog THEMATIC>CopDEM30m_wbm_global_mosaic    
+- **DEM_AUX_WBM**: Water Body Mask (WBM) - auxiliary tif file delivered with the CopDEM-30, available in the WASDI catalog THEMATIC>CopDEM30m_wbm_global_mosaic    
 - **OUTPUT**: Name of the output flood extent map (GeoTIFF format).
 
 ### Advanced Parameters (default values are typically recommended)
