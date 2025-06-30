@@ -1,4 +1,4 @@
-## Autowade S1
+# Autowade S1
 CIMA's Flood Detection algorithm for Sentinel-1 pair of images.
 
 The application executes the AUTOmatic Water Areas DEtector (AUTOWADE) [<a href="#ref-1">1</a>] algorithm for flood detection using Sentinel-1 (S1) SAR data, inside the WASDI platform (https://www.wasdi.net).
