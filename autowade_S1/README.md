@@ -15,6 +15,8 @@ The output is a water extent (flooded and permanent water) map, with a spatial r
 `3` = Flooded areas.  
 The minimum mapping unit is 10 hectares. 
 
+---
+
 ## Input Parameters
 
 - **PRE_IMAGE**: Preprocessed Sentinel-1 GRD VV polarization image acquired *before* the flood event, as a `.tif` file. This can be produced using the WASDI processor `coplac_autowade_preprocessing_s1`.                                           
@@ -47,7 +49,22 @@ Example of the input parameter file:
   "MIN_CLUST_N": 6,
   "FILTER_SIZE": 3
 }
-```  
+```
+
+---
+
+## Code Structure
+
+- **MyProcessor.py**  
+  Contains the main function which calls the core functions from the `autowade_s2` module.
+
+- **Autowade_s2.py**  
+  Contains the functions and implementation of the AUTOWADE_S2 algorithm.
+
+- **Resample_themathic.py**  
+  Provides utilities for resampling and aligning thematic layers (e.g., land cover, DEM) to the Sentinel-2 image.
+
+---
 
 ## References
 [1] <a id="ref-1"></a> Pulvirenti, L., Squicciarino, G., Fiori, E., Ferraris, L., & Puca, S. (2021). *A Tool for Pre-Operational Daily Mapping of Floods and Permanent Water Using Sentinel-1 Data*. Remote Sensing, 13(7), 1342. 
