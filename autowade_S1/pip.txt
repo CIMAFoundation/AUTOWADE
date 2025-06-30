@@ -1,0 +1,6 @@
+wasdi
+rasterio
+scipy
+scikit-learn
+numpy==1.26.4
+scikit-image
